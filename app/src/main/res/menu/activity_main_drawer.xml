@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+    <item  android:title="Sleep|Eat|Drink">
+       <menu>
+            <item
+                android:id="@+id/hotels"
+                android:icon="@drawable/ic_menu_bed"
+                android:title="Hotels" />
+            <item
+                android:id="@+id/restaurant"
+                android:icon="@drawable/ic_food"
+                android:title="Restaurants" />
+            <item
+                android:id="@+id/cafe"
+                android:icon="@drawable/ic_cup"
+                android:title="Cafe" />
+       </menu>
+    </item>
+
+    <item  android:title="Relax|Chill|Move">
+      <menu>
+        <item
+            android:id="@+id/beaches"
+            android:icon="@drawable/ic_beach"
+            android:title="Beaches" />
+        <item
+            android:id="@+id/sports"
+            android:icon="@drawable/ic_soccer_ball"
+            android:title="Sports" />
+      </menu>
+    </item>
+    </group>
+</menu>
+
+
+
+
+
